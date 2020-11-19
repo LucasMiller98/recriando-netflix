@@ -16,6 +16,7 @@
 body {
   background: var(--color-black);
   font-family: "Bitter";
+  color: #ffffff;
 }
 
 .h2-logo {
@@ -41,4 +42,48 @@ header nav a:hover {
   display: flex;  
   align-items: center;
   justify-content: space-between;
+}
+
+.main-movie {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/img-the-President-of-the-Unated-States.jpg') no-repeat;
+  background-size: cover;
+  height: 75.9vh;
+}
+
+.everyButtons {
+  cursor: pointer;
+  background: var(--color-black);
+  color: #ffffff;
+  border: none;
+  opacity: .7;
+  padding: 5px 10px;
+  margin-left: 5px;
+  width: 20%;
+  position: relative;
+  bottom: -91px;
+  border-radius: .5rem;
+  transition: all ease .3s;
+}
+
+.everyButtons:hover {
+  transform: scale(.9);
+}
+
+.fa-exclamation-circle {
+  font-size: 20px;
+  margin: auto;
+}
+
+#button-learn-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 7vw;
+}
+
+#div-buttons {
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
