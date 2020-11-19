@@ -32,7 +32,6 @@ header nav a {
   cursor: pointer;
 }
 
-
 header nav a:hover {
   text-decoration: underline;
   color: #ffffff;
@@ -49,6 +48,25 @@ header nav a:hover {
   background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/img-the-President-of-the-Unated-States.jpg') no-repeat;
   background-size: cover;
   height: 75.9vh;
+  display: flex;
+  justify-content: center;
+}
+
+main .container .title {
+  font-size: 30px;
+}
+
+.main-movie .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#div-buttons {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
 }
 
 .everyButtons {
@@ -58,10 +76,9 @@ header nav a:hover {
   border: none;
   opacity: .7;
   padding: 5px 10px;
+  height: 7vh;
   margin-left: 5px;
   width: 20%;
-  position: relative;
-  bottom: -91px;
   border-radius: .5rem;
   transition: all ease .3s;
 }
@@ -70,20 +87,21 @@ header nav a:hover {
   transform: scale(.9);
 }
 
-.fa-exclamation-circle {
-  font-size: 20px;
-  margin: auto;
-}
-
 #button-learn-more {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 7vw;
+  width: 10vw;
 }
 
-#div-buttons {
-  display: flex;
-  justify-content: center;
-  width: 80%;
+.fa-play, .fa-plus, .fa-exclamation-circle {
+  padding-right: 7px;
 }
+
+.fa-plus {
+  color: #f1f1f1;
+}
+
+.fa-play {
+  color: #f1f1f1;
+} 
