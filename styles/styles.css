@@ -1,0 +1,44 @@
+:root {
+  --color-red: #e50914;
+  --color-black: #141414;
+}
+
+::selection {
+  color: #330709;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  background: var(--color-black);
+  font-family: "Bitter";
+}
+
+.h2-logo {
+  color: var(--color-red);
+  font-family: 'Arial Black';
+  margin-left: 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+header nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
