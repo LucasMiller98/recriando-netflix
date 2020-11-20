@@ -6,3 +6,9 @@ Recriando a netflix na aula do curso da digital innovation one
 ## A propriedade role do button
 
 Para evitar do botão renderizar com alguma propriedade ou maneira diferente
+
+## Objetivos para um futuro próximo
+
+- Dar vida aos botões
+- Colocar ReactJS
+- Melhorar o código
