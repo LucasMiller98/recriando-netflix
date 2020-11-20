@@ -7,14 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/responsive.css">
   <link rel="shotcup icon" href="img/unnamed.jpg">
-  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+  <script defer src="js/owl/jquery.min.js"></script>
+  <script defer src="js/owl/owl.carousel.min.js"></script>
+  <script defer src="js/script.js"></script>
   <title>Netflix</title>
 </head>
 <body>
   <header>
     <div class="container">
-      <h2 class="h2-logo">NETFLIX</h2>
+      <h1 class="h2-logo">NETFLIX</h1>
       <nav>
         <a href="#">Inicio</a>
         <a href="#">Séries</a>
@@ -32,7 +37,7 @@
             <i class="fas fa-play"></i>
             Assistir
           </button>
-          <button role="button" class="everyButtons">
+          <button role="button" id="plus-button" class="everyButtons">
             <i class="fas fa-plus"></i>
             Minha lista
           </button>
@@ -47,5 +52,41 @@
       </div>
     </div>
   </main>
+
+  <div class="movies-carousel">
+    <div class="owl-carousel owl-theme">
+      <div class="items">
+        <img class="movie-box" src="img/the-flash.jpg" alt="The flash">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/arrow.jpg" alt="Arrow">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/supergirl.jpg" alt="Supergirl">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/brooklyn-nine-nine.jpg" alt="Brooklyn nine nine">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/the-100.jpg" alt="The 100">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/the-boss-baby.jpg" alt="O Chefinho">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/viagem-2.jpg" alt="Viagem 2">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/cronicas-de-natal.jpg" alt="Cronicas de natal">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/friends.jpg" alt="Friends">
+      </div>
+      <div class="items">
+        <img class="movie-box" src="img/img-the-President-of-the-Unated-States.jpg" alt="Designated Survivor">
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>

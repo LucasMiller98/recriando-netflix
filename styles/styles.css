@@ -24,15 +24,26 @@ body {
   margin-left: 5px;
 }
 
+header {
+  padding: 15px 0;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 28px;
+  font-family: 'Arial', 'sans-serif';
+}
+
 header nav a {
   text-decoration: none;
+  font-family: 'Arial';
   color: #aaa;
   margin-right: 10px;
   cursor: pointer;
+  transition: all ease .3s;
 }
 
 header nav a:hover {
-  text-decoration: underline;
   color: #ffffff;
 }
 
@@ -53,13 +64,13 @@ header nav a:hover {
 
 .title {
   font-size: 60px;
-  margin-left: 27px;
   position: relative;
   bottom: 100px;
+  margin-left: 27px;
 }
 
 .main-movie .description {
-  margin: 25px 390px 0 27px; 
+  margin: 75px 390px 0 27px; 
   text-align: justify;
   text-justify: inter-word;
   font-size: 25px;
@@ -71,6 +82,12 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-left: 27px;
+  margin-top: 80px;
+}
+
+#plus-button {
+  margin: 0 7px;
 }
 
 #div-buttons {
@@ -80,10 +97,9 @@ header nav a:hover {
 }
 
 .everyButtons {
-  margin-left: 27px;
   cursor: pointer;
   background: var(--color-black);
-  color: #fafafa;
+  color: #f1f1f1;
   font-weight: 800;
   font-size: 15px;
   border: none;
@@ -111,4 +127,19 @@ header nav a:hover {
 
 .fa-play, .fa-plus, .fa-info-circle {
   padding-right: 7px;
+}
+
+.movie-box {
+  position: relative;
+  top: 5px;
+  padding-bottom: 22px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: block;
+  transition: all ease .3s;
+}
+
+.movie-box:hover {
+  transform: translateY(-3px);
 }
